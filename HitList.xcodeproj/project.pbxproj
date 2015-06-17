@@ -14,6 +14,7 @@
 		E8043E471B31427100A4CD9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8043E461B31427100A4CD9B /* Images.xcassets */; };
 		E8043E4A1B31427100A4CD9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8043E481B31427100A4CD9B /* LaunchScreen.xib */; };
 		E8043E561B31427100A4CD9B /* HitListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8043E551B31427100A4CD9B /* HitListTests.swift */; };
+		E8043E601B314B1000A4CD9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8043E5F1B314B1000A4CD9B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E8043E4F1B31427100A4CD9B /* HitListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8043E541B31427100A4CD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8043E551B31427100A4CD9B /* HitListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitListTests.swift; sourceTree = "<group>"; };
+		E8043E5F1B314B1000A4CD9B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				E8043E3C1B31427100A4CD9B /* AppDelegate.swift */,
 				E8043E411B31427100A4CD9B /* ViewController.swift */,
+				E8043E5F1B314B1000A4CD9B /* TableViewController.swift */,
 				E8043E431B31427100A4CD9B /* Main.storyboard */,
 				E8043E461B31427100A4CD9B /* Images.xcassets */,
 				E8043E481B31427100A4CD9B /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				E8043E421B31427100A4CD9B /* ViewController.swift in Sources */,
 				E8043E3D1B31427100A4CD9B /* AppDelegate.swift in Sources */,
 				E8043E401B31427100A4CD9B /* HitList.xcdatamodeld in Sources */,
+				E8043E601B314B1000A4CD9B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
